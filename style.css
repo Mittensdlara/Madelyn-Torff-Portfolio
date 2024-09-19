@@ -1,0 +1,84 @@
+body {
+  font-family: "Nunito", sans-serif;
+  background-color: #f4f4f8;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 50px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+.brand-name:hover {
+  cursor: pointer;
+  font-weight: 800;
+  transition: all ease-in-out 0.5s;
+  letter-spacing: 3px;
+}
+.nav-links li:hover {
+  color: #ffffff;
+  transition: all ease-in-out 2ms;
+  font-weight: 700;
+}
+.nav-links-about li:hover {
+    text-decoration: underline overline #000;
+  transition: all ease-in-out 2ms;
+  font-weight: 700;
+}
+.profssion {
+  color: #fdc435;
+}
+.hero-img {
+  position: relative;
+}
+.yellow {
+  z-index: -1;
+  position: absolute;
+  bottom: 0;
+  height: 600px;
+  width: 600px;
+  background-color: #fdc435;
+}
+.yellow-about {
+  z-index: -1;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 500px;
+  width: 520px;
+  background-color: #fdc435;
+}
+.btn-groups a:first-child {
+  background-color: #fdc435;
+}
+.btn-groups a:first-child:hover {
+  border: 2px solid #fdc435;
+  background-color: #f9faff;
+}
+
+.yellow-line {
+  width: 100px;
+  height: 5px;
+  background-color: #fdc435;
+}
+.projects-section h2 {
+  font-family: "Playfair Display", serif; 
+  font-weight: 700;
+  font-size:40px;
+}
+.card-caption h3{
+font-family:"Playfair Display", serif; 
+font-weight: 700;
+font-size:40px;
+}
+.project-card {
+    background-color: #ffffff;
+    
+}
+
+p, small{
+    opacity: .8;
+}
